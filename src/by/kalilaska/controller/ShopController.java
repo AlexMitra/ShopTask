@@ -74,6 +74,7 @@ public class ShopController {
     private String showEquipmentTable(){
         SportEquipment se;
         StringBuilder sb = new StringBuilder();
+        categoryList.clear();
 
         sb.append(String.format("%1s %-5s %-50s %10s %10s\n", " ", "#", "Name of equipment", "Price, $", "Amount"));
         sb.append(String.format("%1s %-5s %-50s %10s %10s\n", "|", "-", "-----------------", "--------", "------"));
