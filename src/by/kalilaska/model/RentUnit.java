@@ -2,8 +2,6 @@ package by.kalilaska.model;
 
 import by.kalilaska.entities.SportEquipment;
 
-import java.util.Arrays;
-
 /**
  * Created by lovcov on 11.05.2017.
  */

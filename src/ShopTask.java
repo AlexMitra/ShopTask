@@ -1,8 +1,6 @@
 import by.kalilaska.controller.ShopController;
 import by.kalilaska.controller.speakers.Speakers;
 import by.kalilaska.data.DataAccess;
-import by.kalilaska.data.exceptions.DataNotFoundException;
-import by.kalilaska.data.exceptions.FileNotFoundPushException;
 import by.kalilaska.data.impl.DataAccessImpl;
 import by.kalilaska.model.RentUnit;
 import by.kalilaska.model.Shop;
@@ -22,10 +20,9 @@ public class ShopTask {
 
         try{
             da.readData();
-        }catch (FileNotFoundPushException e){
+        }catch (Exception e){
             viewer.view(Speakers.SHOP_CLOSED.speak());
-        }catch (DataNotFoundException e){
-            viewer.view(Speakers.SHOP_CLOSED.speak());
+            System.exit(0);
         }
 
         ShopService shopService = new ShopServiceImpl(da);
