@@ -11,9 +11,6 @@ import java.util.TreeMap;
 public class Shop {
     private Map<SportEquipment, Integer> goods;
 
-//    public Shop() {
-//        goods = new HashMap<>();
-//    }
     public Shop() {
         goods = new TreeMap<>();
     }

@@ -1,6 +1,8 @@
 package by.kalilaska.data.impl;
 
 import by.kalilaska.data.DataAccess;
+import by.kalilaska.data.exceptions.DataNotFoundException;
+import by.kalilaska.data.exceptions.FileNotFoundPushException;
 import by.kalilaska.entities.SportEquipment;
 import by.kalilaska.model.RentUnit;
 import by.kalilaska.model.Shop;
@@ -35,7 +37,6 @@ public class DataAccessImpl implements DataAccess {
     public void readData() {
         Gson gson = new Gson();
         BufferedReader br = null;
-        //Shop shop = new Shop();
 
         try{
             br = new BufferedReader(new FileReader(PATH));
@@ -47,10 +48,12 @@ public class DataAccessImpl implements DataAccess {
                 for (SportEquipment se : sportEquipmentList) {
                     shop.addGood(se);
                 }
-                //return shop;
+                if(shop.getGoods().size()==0){
+                    throw new DataNotFoundException("We have not data");
+                }
             }
         } catch (FileNotFoundException e) {
-
+            throw new FileNotFoundPushException("File not found");
         }finally {
             if(br != null){
                 try {
@@ -61,7 +64,7 @@ public class DataAccessImpl implements DataAccess {
             }
 
         }
-        //return shop;
+
     }
 
     public Shop getData(){

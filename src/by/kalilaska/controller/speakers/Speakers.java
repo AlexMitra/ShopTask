@@ -21,7 +21,9 @@ public enum Speakers {
             "If you want to return to the main menu write 'R' "),
 
     SEARCHING_SUGGESTION("\n Write all name or part of name "),
-    BAD_SEARCHING_RESULT("\n We didn't find anything, write again or 'return' to return to main menu ");
+    BAD_SEARCHING_RESULT("\n We didn't find anything, write again or 'return' to return to main menu "),
+
+    SHOP_CLOSED("SHOP CLOSED!!!");
 
     private String message;
 

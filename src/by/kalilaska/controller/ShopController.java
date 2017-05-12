@@ -61,6 +61,7 @@ public class ShopController {
                 }
                 countOfRents = shopService.getCurrentNumberOfRents();
             }else{
+                viewer.view(showEquipmentTable());
                 viewer.view(Speakers.BYE_BYE.speak());
                 return;
             }
