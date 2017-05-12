@@ -1,0 +1,152 @@
+[
+	{
+		"id":0,
+		"category":{
+					"id":0,
+					"name":"skates"
+					},
+		"title":"Men's hockey skates 10 size",
+		"price":25.5
+	},
+
+	{
+		"id":0,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"Men's hockey skates 10 size",
+		"price":25.5
+	},
+
+	{
+		"id":1,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"Men's hockey skates 9 size",
+		"price":25.5
+	},
+
+	{
+		"id":2,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"Men's hockey skates 8 size",
+		"price":25.5
+	},
+
+	{
+		"id":3,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"Womens's figure skates 8 size",
+		"price":28.5
+	},
+
+	{
+		"id":4,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"Womens's figure skates 7 size",
+		"price":28.5
+	},
+
+	{
+		"id":5,
+		"category":{
+			"id":1,
+			"name":"balls"
+		},
+		"title":"ball for football",
+		"price":10.5
+	},
+
+	{
+		"id":6,
+		"category":{
+			"id":1,
+			"name":"balls"
+		},
+		"title":"ball for volleyball",
+		"price":8.5
+	},
+
+	{
+		"id":7,
+		"category":{
+			"id":1,
+			"name":"balls"
+		},
+		"title":"ball for basketball",
+		"price":8.5
+	},
+
+	{
+		"id":8,
+		"category":{
+			"id":2,
+			"name":"sneakers"
+		},
+		"title":"Nike air max 10 size",
+		"price":45.0
+	},
+
+	{
+		"id":9,
+		"category":{
+			"id":2,
+			"name":"sneakers"
+		},
+		"title":"Adidas Samba 10 size",
+		"price":40.0
+	},
+
+	{
+		"id":9,
+		"category":{
+			"id":2,
+			"name":"sneakers"
+		},
+		"title":"Adidas Samba 10 size",
+		"price":40.0
+	},
+
+	{
+		"id":10,
+		"category":{
+			"id":2,
+			"name":"sneakers"
+		},
+		"title":"Puma Suede 10 size",
+		"price":40.0
+	},
+
+	{
+		"id":10,
+		"category":{
+			"id":2,
+			"name":"sneakers"
+		},
+		"title":"Puma Suede 10 size",
+		"price":40.0
+	},
+
+	{
+		"id":11,
+		"category":{
+			"id":0,
+			"name":"skates"
+		},
+		"title":"!!!!!Test test test",
+		"price":7.777
+	}
+
+]
